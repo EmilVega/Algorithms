@@ -1,0 +1,35 @@
+>> x=linspace(0,2*pi,100);
+>> plot (x,y)
+>> xlabel('Eje x')
+>> ylabel('Eje y')
+>> title('Title')
+>> legend('SENO')
+>> grid on
+>> plot (x,y,'m')
+>> plot (x,y,'c')
+>> plot (x,y,'r')
+>> xlable ('keila')
+Undefined function 'xlable' for input arguments of type
+'char'.
+ 
+Did you mean:
+>> xlabel ('keila')
+>> z=cos(x);
+>> plot(x,z)
+>> plot(x,y)
+>> figure
+>> plot (x,z)
+>> plot (x,z, 'r')
+>> grid one
+Error using grid (line 103)
+Unknown command option.
+ 
+>> grid on
+>> xlabel ('emil')
+>> figure, plot (x,y,'r',x,z,'m')
+>> ylabel ('eje y')
+>> xlabel('eje x')
+>> ylabel ('eje y')
+>> legend ('SENO','COSENO')
+>> grid on
+>> 
